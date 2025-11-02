@@ -3,8 +3,56 @@ Team organisation   -> Magnetics Team + Anodes team
 Construction        -> Soft iron core 
                     -> Filament Cathode
                     -> Wrap-around Coil allows for more accurate 2D sims
-                    -> Argon Fuel, its much cheper
-                    -> Use innovacera for ceramics fab
+                    -> Argon Fuel, its much cheaper
+                    -> UseInnovacera for ceramics fab
 
 Costs               -> £ 800 for the first engine 
-                    -> Up to £16,000 for refinements 
+                    -> Up to £16,000 for refinements
+                    -> One good thing is look at what we've got planned and evidence we can do it, we need money. 
+
+
+Important Research  -> Why certain parameters are the way they are
+                    -> Plasma basics, don’t need to know a lot to get started
+                    -> Research low power scaling
+
+Simulations         -> FEA to understand plasma at output 
+                    -> FEMM for magnetics simulation -> https://www.femm.info/wiki/HomePage
+                    	-> Alternative: Argos, COMSOL (Uni May pay)
+
+
+
+
+
+Nates Notes: 
+
+£1000 from the university
+Sponsors 
+Research theory, why certain parameters are the way they are, 
+Make sure understand plasma basics, don’t need to know a lot to get started
+2 subteams
+Magnetic teams optimise field topology, actual design of magnetic circuit
+Anode team
+Need really good magnetic circuit
+Main magnetic circuit, soft iron
+Ceramic – boron nitride, Southampton got theirs made in china, £300-400 
+Standard manufacturers:
+innovascera – custom ceramics
+Metallic manufacturer
+Their hollow cathode was provided by professor, they used argon, could make filament cathode
+Doing lectures to new members on propulsion basics
+
+Research low power scaling
+Made their own database, reverse engineered scaling laws, but went with lee’s 
+Start with geometry, simulate magnetic fields – most important part – want to do CFD on anode for even gas distribution. 
+Open source magnetic software, FEMM finite element method magnetics HomePage:Finite Element Method Magnetics
+agros - Open way for computing 
+COMSOL - Software for Multiphysics Simulation – paid but might have access thru uni, can do more precise simulations & 3D simulations but FEMM is fine for starting out
+Software is most important to make 
+Wrap around coil design, one coil wraps around centre and another large coil. Their og design had 4 separate electromagnetics, when you simulate wrap around coil its symmetric, 2d simulation will be almost exact as 3d, they did 2d optimisation then when they went to 3d had to redo optimisation
+
+RE: Anode, basic design, layer of 4 holes then 8 then 16 for gas distribution, can change things and use CFD to make sure works as expected
+
+Issues they ran into 
+One major hurdle was learning the software
+One good thing is look at what weve got planned and evidence we can do it, we need money. 
+Could do as low as £600-700, aim for £1500
